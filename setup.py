@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='carma',
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     author='Zeio Nara',
     author_email='zeionara@gmail.com',
@@ -22,5 +22,11 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.11"
     ],
-    install_requires = ['click', 'requests']
+    install_requires = ['click', 'requests'],
+    package_data={
+        '': [
+            'api_config.json'
+        ]
+    },
+    include_package_data=True
 )
