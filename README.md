@@ -6,15 +6,27 @@
 
 Cli tool for managing cloud mail.ru storage
 
+## Usage
+
 The main feature is file upload. For example, to upload all files from local folder `~/foo/bar` to remote folder `/qux/quux/bar` use the following command:
 
 ```sh
 python -m karma sync ~/foo/bar qux/quux
 ```
 
+## Installation
+
+To isntall from `pip`:
+
+```sh
+pip install carma
+```
+
+## Original docs
+
 The tool is based on [cloud_mail_ru](https://github.com/kireevmp/mailru-cloud-api) package which is unofficial cloud.mail.ru's python API.
 
-## All existing methods in cloud.mail.ru's API
+### All existing methods in cloud.mail.ru's API
 
 | Implemented? | Method |         Path          |           Additional Info             |
 |:------------:|:------:|:---------------------:|:-------------------------------------:|
@@ -84,7 +96,7 @@ The tool is based on [cloud_mail_ru](https://github.com/kireevmp/mailru-cloud-ap
 |              | (POST) | promo/validate        |                                       |
 |       X      | (POST) | notify/applink        |                                       |
 
-## Examples of usage
+### Examples of usage
 I decided implement the structure of the original API so for the `file/add` request you must call the method `MailCloud_instance.api.file.add(...)`.
 All realized methods are described in the table above.
 #### Basic usage

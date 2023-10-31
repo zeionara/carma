@@ -2,7 +2,7 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-    name='karma',
+    name='carma',
     version='0.0.3',
     license='MIT',
     author='Zeio Nara',
