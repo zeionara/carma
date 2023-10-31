@@ -22,9 +22,9 @@ To isntall from `pip`:
 pip install carma
 ```
 
-## Original docs
-
 The tool is based on [cloud_mail_ru](https://github.com/kireevmp/mailru-cloud-api) package which is unofficial cloud.mail.ru's python API.
+
+## Original docs
 
 ### All existing methods in cloud.mail.ru's API
 
