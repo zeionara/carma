@@ -1,11 +1,15 @@
-# Carma
+<p align="center">
+    <img src="https://i.ibb.co/KWLVsLr/logo.png"/>
+</p>
+
+# Karma
 
 Cli tool for managing cloud mail.ru storage
 
 The main feature is file upload. For example, to upload all files from local folder `~/foo/bar` to remote folder `/qux/quux/bar` use the following command:
 
 ```sh
-python -m carma sync ~/foo/bar qux/quux
+python -m karma sync ~/foo/bar qux/quux
 ```
 
 The tool is based on [cloud_mail_ru](https://github.com/kireevmp/mailru-cloud-api) package which is unofficial cloud.mail.ru's python API.
