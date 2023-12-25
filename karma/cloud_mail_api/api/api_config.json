@@ -32,7 +32,7 @@
         },
         "file/_upload_file": {
             "method": "PUT",
-            "endpoint": "https://cld-uploader12.cloud.mail.ru/upload-web/",
+            "endpoint": "https://uploader.cloud.mail.ru/upload-web/",
             "no_path": true,
             "location": {
                 "package": "karma.cloud_mail_api.api",
