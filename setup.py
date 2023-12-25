@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='carma',
-    version='0.0.3',
+    version='0.0.4',
     license='MIT',
     author='Zeio Nara',
     author_email='zeionara@gmail.com',
